@@ -1,0 +1,4 @@
+
+CXXFLAGS =-std=c++11
+main: Actividad_1.o
+	$(CXX) $(CXXFLAGS) $^ $(LDFLAGS) $(LDLIBS) -o $@

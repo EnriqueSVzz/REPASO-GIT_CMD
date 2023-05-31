@@ -1,22 +1,22 @@
 /*
-    Realice una aplicaci¦n que le solicite al usuario un monto total, un porcentaje
-    a retirar de dicho monto total y no mayor a 80%, la aplicaci¦n deber¦ solicitar el nombre del usuario, el monto,
+    Realice una aplicaciï¿½n que le solicite al usuario un monto total, un porcentaje
+    a retirar de dicho monto total y no mayor a 80%, la aplicaciï¿½n deberï¿½ solicitar el nombre del usuario, el monto,
     el porcentaje a retirar no mayor a 80% y mostrar el equivalente a dicho porcentaje solicitado.
     
-    #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <iostream>
 #include <fstream>
 
-/*CONSTANTES´*/
+/*CONSTANTESï¿½*/
    
 #include <stdio.h>
 #include <iostream>
 
-#define  PORCENTAJE                 80
-#define  CIEN   					100
-#define  CERO						0 
+#define  PORCENTAJE 60
+#define  CIEN   	100
+#define  CERO		0 
 
 using namespace std;
 
@@ -26,19 +26,20 @@ int main()
     int porcentaje =CERO;
     char nombre[20];
 
-    cout << "\n Ingrese su nombre \n >";
+    cout << "\n\t Ingrese  por favor su nombre \n\t>";
     fflush(stdin);
     gets(nombre);
 
-    cout << "\n Ingrese el monto con el que cuenta \n>";
+    cout << "\n\t Ingrese el monto con el que cuenta \n\t>";
     cin>> monto;
 
 
      do {
-        cout << "\n Ingrese el porcentaje a retirar \n>";
+        cout << "\n\t Ingrese el porcentaje a retirar \n\t>";
         cin >> porcentaje;
         if(porcentaje > PORCENTAJE || porcentaje < CERO)
-            cout << "\n porcentaje no valido, intente otra vez \n>";
+            cout << "\n\t Porcentaje no valido, intente otra vez \n"
+                 << "\n\t El monto no debe ser mayor a  60 \n";
 
      } while(porcentaje > PORCENTAJE || porcentaje < CERO);
 
