@@ -45,8 +45,9 @@ int main()
 
      float porcetanje_total = (float) porcentaje / CIEN ;
 
-     cout << "\n "  << nombre  
-	 	  << " Ha retirado : " << monto*porcetanje_total;
+     cout << "\n\t El Cliente :  "  << nombre  
+	 	  << " Ha retirado la cantidad de : " << monto*porcetanje_total
+          << " pesos MXN \n";
      
      return 0;
 }
