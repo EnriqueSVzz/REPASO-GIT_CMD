@@ -49,7 +49,8 @@ int main()
 	 	  << " Ha retirado la cantidad de : " << monto*porcetanje_total
           << " pesos MXN \n";
     
-        cout << "\n\t Fin del programa ... \n\t Vuelva pronto :)!! ";
+    cout << "\n\t Fin del programa ... \n\t Vuelva pronto :)!! ";
+    std::cout << "\n\t CALCULADOR DE RETIROS SA CV V1.0" << std::endl;
      
      return 0;
 }
