@@ -48,6 +48,8 @@ int main()
      cout << "\n\t El Cliente :  "  << nombre  
 	 	  << " Ha retirado la cantidad de : " << monto*porcetanje_total
           << " pesos MXN \n";
+    
+        cout << "\n\t Fin del programa ... \n\t Vuelva pronto :)!! ";
      
      return 0;
 }
