@@ -20,6 +20,7 @@
 
 using namespace std;
 void ProcessMessage();
+void ProcessMessage2();
 
 int main()
 {
@@ -45,7 +46,7 @@ int main()
      } while(porcentaje > PORCENTAJE || porcentaje < CERO);
 
      float porcetanje_total = (float) porcentaje / CIEN ;
-
+    ProcessMessage2();
      cout << "\n\t El Cliente :  "  << nombre  
 	 	  << " Ha retirado la cantidad de : " << monto*porcetanje_total
           << " pesos MXN \n";
@@ -59,5 +60,10 @@ int main()
 void ProcessMessage()
 {
     cout << "\n\t Calculando Proceso, no tardemos" << std::endl;
+}
+
+void ProcessMessage2()
+{
+    cout << "\n\t Termimanos" << std::endl;
 }
 
