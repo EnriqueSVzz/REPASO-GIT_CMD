@@ -19,6 +19,7 @@
 #define  CERO		0 
 
 using namespace std;
+void ProcessMessage();
 
 int main()
 {
@@ -33,7 +34,7 @@ int main()
     cout << "\n\t Ingrese el monto con el que cuenta \n\t>";
     cin>> monto;
 
-
+    ProcessMessage();
      do {
         cout << "\n\t Ingrese el porcentaje a retirar \n\t>";
         cin >> porcentaje;
@@ -53,5 +54,10 @@ int main()
     std::cout << "\n\t CALCULADOR DE RETIROS SA CV V1.0" << std::endl;
      
      return 0;
+}
+
+void ProcessMessage()
+{
+    cout << "\n\t Calculando Proceso, no tardemos" << std::endl;
 }
 
